@@ -1,0 +1,23 @@
+{
+	"skipLibCheck"		  : true,
+	"compileOnSave"       : true,
+	"compilerOptions"     : {
+		"module"          : "CommonJS",
+		"removeComments"  : true,
+		"sourceMap"       : true,
+		"outDir"          : "../build/server/",
+		"moduleResolution": "node",
+		"allowJs"         : true,
+		"types"           : []
+	},
+	"include"             : [
+		"**/*"
+	],
+	"exclude"             : [
+		"node_modules",
+		"build",
+		"dist",
+		"aws",
+		"**/*.spec.ts"
+	]
+}

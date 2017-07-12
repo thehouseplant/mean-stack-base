@@ -1,0 +1,27 @@
+{
+	"skipLibCheck"		  : true,
+	"compileOnSave"       : true,
+	"compilerOptions"     : {
+		"lib"			  : [
+			"es2015",
+			"dom"
+		],
+		"module"          : "CommonJS",
+		"emitDecoratorMetadata" : true,
+		"experimentalDecorators": true,
+		"removeComments"  : true,
+		"sourceMap"       : true,
+		"outDir"          : "../build/client/",
+		"moduleResolution": "node",
+		"allowJs"         : true
+	},
+	"include"             : [
+		"**/*"
+	],
+	"exclude"             : [
+		"node_modules",
+		"build",
+		"**/*.spec.ts",
+		"test/**"
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"connection": {
+		"development": "",
+		"qa":          "",
+		"stage":       "",
+		"production":  "",
+		"local":       ""
+	},
+	"options":    {
+		"development": {},
+		"qa":          {
+			"replset": {
+				"rs_name": ""
+			},
+			"user":    "",
+			"pass":    ""
+		},
+		"stage":       {
+			"replset": {
+				"rs_name": ""
+			},
+			"user":    "",
+			"pass":    ""
+		},
+		"production":  {
+			"replset": {
+				"rs_name": ""
+			},
+			"user":    "",
+			"pass":    ""
+		},
+		"local":       {}
+	}
+}
